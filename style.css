@@ -1,0 +1,13 @@
+/* Google Font - IM Fell English SC Designed by Igino Marini  */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+#navbar, #footer {
+    font-family: 'IM Fell English SC', serif;
+    color: #00541A;
+    margin: auto;
+}
+
+#background {
+    background-color: #00541A;
+}
+
