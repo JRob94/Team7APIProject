@@ -38,6 +38,7 @@ const cardThree = document.querySelector(`#card-three`);
 //         console.log(`Acquiring quote successful`);
 //         console.log(cardOneQ.data);
 //         const recipe = document.createElement(`q`);
+//         recipe.classList.add(`quotes`);
 //         recipe.innerText = cardOneQ.data;
 //         cardOne.append(recipe);
 
@@ -54,6 +55,7 @@ const cardThree = document.querySelector(`#card-three`);
 //         console.log(`Acquiring quote successful`);
 //         console.log(cardTwoQ.data);
 //         const wood = document.createElement(`q`);
+//         wood.classList.add(`quotes`);
 //         wood.innerText = cardTwoQ.data;
 //         cardTwo.append(wood);
 //     } catch (err) {
@@ -70,6 +72,7 @@ const cardThree = document.querySelector(`#card-three`);
 //         console.log(`Acquiring quote was successful`);
 //         console.log(cardThreeQ.data);
 //         const whiskey = document.createElement(`q`);
+//         whiskey.classList.add(`quotes`);
 //         whiskey.innerText = cardThreeQ.data;
 //         cardThree.append(whiskey);
 //     } catch (err) {
