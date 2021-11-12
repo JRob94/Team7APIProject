@@ -35,7 +35,7 @@ getRonQuote();
 
 myWordsQuotes = async () => {
     try {
-        const words = await axios.get(`https://ron-swanson-quotes.herokuapp.com/v2/quotes`);
+        const words = await axios.get(`https://ron-swanson-quotes.herokuapp.com/v2/quotes/2`);
         console.log(`Acquiring quote successful`);
         console.log(words.data);
         const numOfQuotes = words.data;
@@ -45,7 +45,8 @@ myWordsQuotes = async () => {
         for (q of numOfQuotes) {
             console.log(q);
             const knowMyWords = document.createElement(`blockquote`)
-            knowMyWords.innerText = `${number}. ${words.data}`;
+            knowMyWords.innerText = `${number}. ${q}`;
+            knowMyWords.classList.add(`aboutMeQuote`);
             myWords.append(knowMyWords);
             number++;
         }
