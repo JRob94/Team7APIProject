@@ -1,6 +1,8 @@
 /* Google Font - IM Fell English SC Designed by Igino Marini  */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
 #navbar, #footer {
     font-family: 'IM Fell English SC', serif;
     color: #00541A;
@@ -9,6 +11,68 @@
 
 body {
     background-color: #00541A;
+}
+
+#img-ron {
+    margin-top: 30px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.containerONE {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;      
+}
+
+legend {
+    text-align: center;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+label {
+    height: 22px;
+    text-align: center;
+    width: 150px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+  }
+  
+  input, #label2 {
+    height: 22px;
+    width: 300px;
+    margin-left: 5px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: blanchedalmond;
+  }
+
+#label-Quote {
+    width: fit-content;
+}
+#quoteONE {
+    height: 25px;
+    width: 47vw;
+    margin-left: 10px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: blanchedalmond;
+}
+
+form { 
+    background-color: #BD9354;
+    max-height: 500px;
+    max-width: 700px;
+    grid-column-start: 2;
+    grid-column-end: 6; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-top: 40px;
+    margin-left: 100px;
+    border: 5px solid black;
+    border-radius: 25px;
 }
 
 #longboxes {
@@ -30,34 +94,4 @@ body {
     padding: 5px;
 }
 
-
-/* #boxes {
-    margin-top: 20px;
-}
-
-#boxes .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-#boxes .container .box {
-    width: 30%;
-    text-align: center;
-    padding: 10px;
-}
-
-#boxes .box i {
-    font-size: 225px;
-    margin: auto;
-}
-
-#boxes .box .fa-html5 {
-    color: #d45632;
-}
-#boxes .box .fa-css3-alt {
-    color: #2d50dc;
-}
-#boxes .box .fa-js {
-    color: #f3df50;
-} */
 
