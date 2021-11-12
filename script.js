@@ -34,7 +34,7 @@ const cardThree = document.querySelector(`#card-three`);
 
 // getCardQuoteOne = async () => {
 //     try {
-//         const cardOneQ = await axios.get(`https://ron-swanson-quotes.herokuapp.com/v2/quotes`);
+//         const cardOneQ = await axios.get(`https://ron-swanson-quotes.herokuapp.com/v2/quotes/search/eggs`);
 //         console.log(`Acquiring quote successful`);
 //         console.log(cardOneQ.data);
 //         const recipe = document.createElement(`q`);
@@ -43,7 +43,8 @@ const cardThree = document.querySelector(`#card-three`);
 //         cardOne.append(recipe);
 
 //     } catch (err) {
-
+//         console.log(`Error acquiring quote`);
+//         console.log(err);
 //     }
 // }
 // getCardQuoteOne();
