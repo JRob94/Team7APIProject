@@ -152,3 +152,8 @@ aside {
     font-style: italic;
     padding: 5px;
 }
+
+.aboutMeQuote {
+    font-style: italic;
+    font-weight: bold;
+}
