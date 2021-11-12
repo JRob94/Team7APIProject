@@ -23,6 +23,12 @@ body {
     padding: 25px;
 }
 
+.quotes {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    padding: 5px;
+}
 
 
 /* #boxes {
