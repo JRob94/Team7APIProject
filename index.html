@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,12 +14,11 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <!-- Link to CSS file -->
   <link rel="stylesheet" href="style.css" />
-
   <title>Team 7 Ron Swanson API</title>
 </head>
-
 <body>
-  <!-- NAVBAR -->
+  <!-- NAVBAR SETTINGS -->
+
   <nav class="navbar navbar-light " style="background-color: #FEF9D9;">
     <div class="container-fluid">
       <a id="navbar" class="navbar-brand fs-1 margin" href="#">
@@ -32,14 +30,13 @@
     </div>
   </nav>
 
-  <div id="background" class="container">
+  <!-- PICTURE AND STATISTICS SETTINGS -->
 
-    <!-- Picture and Stats Section -->
+  <div id="background" class="container">
     <section id="pic-stats" class="containerONE">
       <div>
         <img id="img-ron" src="images/image.png" alt="Ron-Swanson-Lumberjack" width="300">
       </div>
-
       <form action="" id="stats-form" >
         <fieldset>
           <legend >RON SWANSON'S STATISTICS</legend>
@@ -64,28 +61,35 @@
           
           <Label id="label-Quote" >Favorite thing to say?</Label><br>
           <label id="quoteONE">I don't have a single favorite thing to say..</label><br>
-
-
-                    
-
         </fieldset>
       </form>
-
     </section>
 
 
-    <!-- Bio and Middle Quote Box -->
+    <!-- BIO AND QUOTE BOX SETTINGS -->
+
     <section id="bio">
-      <div>
+      <div class="containerBIO" >
+
+        <article class="main-col">
+          <h1 class="page-title">A Little About Me...</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, ea quas ad amet delectus, quia eos natus autem suscipit possimus commodi pariatur dolore, veritatis magnam eaque quos neque maiores ipsa mollitia voluptatum quo sequi! Voluptatum saepe at omnis illo incidunt!</p>
+          
+          <p class="light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem maiores iure tempore placeat. Odio enim, distinctio alias praesentium quos similique excepturi sint. Inventore sed minima itaque! Libero blanditiis et nam quod repellendus repellat beatae excepturi atque placeat provident unde quam sint aut eius, ullam ex, quae fugit sed? Fuga, magni.</p>
+      </article>
+
+          <aside class="sidebar">
+              <div class="light">
+                  <h3>To know me, is to know my words.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illum vel, officia aliquid explicabo placeat mollitia distinctio iure at ab sit! Natus animi tempore cupiditate aperiam sequi. Illo, aliquam error?</p>
+              </div>
+          </aside>
 
       </div>
     </section>
 
+    <!-- BOTTOM THREE-CARD SECTION SETTINGS -->
 
-
-
-
-    <!-- Three Cards Section -->
     <section>
       <div id="longboxes" class="container">
         <div id="card-one" class="card" style="width: 18rem;">
@@ -116,21 +120,21 @@
     </section>
   </div>
 
-  <!-- Footer -->
+  <!-- FOOTER SECTION -->
+
   <footer class="bg-light text-center text-lg-start">
     <div class="text-center p-3" style="background-color: #fef9d9">
       <p id="footer">© 2020 Copyright: Felling In Love</p>
     </div>
   </footer>
 
-  <!-- Link to Axios -->
+  <!-- LINK TO AXIOS -->
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <!-- Link to JS file -->
+  <!-- LINK TO JS FILE -->
   <script src="script.js"></script>
-  <!-- Link to Bootstrap JS Bundle -->
+  <!-- LINK TO JS BOOTSTRAP BUNDLE -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -3,15 +3,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
+/* NAVBAR SETTINGS */
+
 #navbar, #footer {
     font-family: 'IM Fell English SC', serif;
     color: #00541A;
     margin: auto;
 }
 
+/* BODY */
+
 body {
     background-color: #00541A;
 }
+
+/* PICTURE AND STATISTICS SETTINGS */
 
 #img-ron {
     margin-top: 30px;
@@ -19,16 +25,17 @@ body {
     border-radius: 25px;
 }
 
-.containerONE {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;      
-}
-
 legend {
+    color: #00541A;
     text-align: center;
     font-family: 'IM Fell English SC', serif;
     font-weight: bolder;
     margin-top: 10px;
+}
+
+.containerONE {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;      
 }
 
 label {
@@ -53,6 +60,7 @@ label {
 #label-Quote {
     width: fit-content;
 }
+
 #quoteONE {
     height: 25px;
     width: 47vw;
@@ -75,12 +83,63 @@ form {
     border-radius: 25px;
 }
 
+.spanOne {
+    background-color: black;
+    color: black;
+}
+
+/* BIO AND QUOTE BOX SETTINGS */
+
+h1, h3 {
+    color: #00541A;
+    font-family: 'IM Fell English SC', serif;
+    font-weight: bolder;
+}
+
+#bio {
+    background-color: #CE7D00;
+    font-family: 'Roboto Mono', monospace;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#bio .containerBIO {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+
+#bio .main-col {
+    color: black;
+    background-color: #BD9354;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#bio .sidebar {
+    margin-top: 10px;
+}
+
+aside {
+    background-color: #BD9354;
+    color: black;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 5px 10px 10px 10px;
+}
+
+/* BOTTOM THREE-CARD SECTION SETTINGS */
+
 #longboxes {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    margin: 50px;
+    margin: 100px 20px 100px 10px;
     border: 5px solid black;
     border-radius: 25px;
     background-color: #CE7D00;
@@ -92,10 +151,4 @@ form {
     font-size: 10px;
     font-style: italic;
     padding: 5px;
-}
-
-
-.spanOne {
-    background-color: black;
-    color: black;
 }
