@@ -63,7 +63,7 @@ myWordsQuotes();
 
 getCardQuoteOne = async () => {
     try {
-        const cardOneQ = await axios.get(`https://ron-swanson-quotes.herokuapp.com/v2/quotes/search/eggs`);
+        const cardOneQ = await axios.get(`https://ron-swanson-quotes.herokuapp.com/v2/quotes/search/bacon`);
         console.log(`Acquiring quote successful`);
         console.log(cardOneQ.data);
         const recipe = document.createElement(`q`);
